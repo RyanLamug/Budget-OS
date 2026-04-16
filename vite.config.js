@@ -19,14 +19,10 @@ export default defineConfig({
         start_url: "/",
         icons: [
           {
-            src: "/icon-192.png",
-            sizes: "192x192",
-            type: "image/png"
-          },
-          {
-            src: "/icon-512.png",
+            src: "https://api.iconify.design/emojione:dollar-banknote.svg?width=512&height=512",
             sizes: "512x512",
-            type: "image/png"
+            type: "image/svg+xml",
+            purpose: "any maskable"
           }
         ]
       }
